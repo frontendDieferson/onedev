@@ -28,7 +28,7 @@ function Header() {
                     </Text>
                     <Button mt={8} colorScheme="blue" onClick={() =>
                         window.open("https://github.com/frontendDieferson")
-                    }>Meu Gitihub</Button>
+                    }>Meu Github</Button>
 
                 </Box>
                 <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
