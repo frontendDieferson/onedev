@@ -27,7 +27,7 @@ function App() {
       <Header></Header>
       <Social></Social>
       <Profile></Profile>
-     
+      <Portfolio></Portfolio>
     </VStack>
   );
 }
