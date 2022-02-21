@@ -14,11 +14,11 @@ function Portfolio() {
 
             <Box mt={isNotSmallerScreen ? "0" : 0} align='center'>  
                     <Text 
-                    fontSize="7xl" 
+                    fontSize="7xl"
                     fontWeight="bold" 
                     bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" 
-                    bgClip='text'>Alguns Projetos</Text>
-                    <Text>{'<Ainda em Desenvolvimento />'}</Text>
+                    bgClip='text'>Projetos</Text>
+                    
                 </Box>
                
                <Card />

@@ -20,7 +20,7 @@ function Profile() {
                 <Text fontSize="2xl" color="gray.400">Anos de Experiência</Text>
             </Box>
             <Box alignSelf="center" px="32" py="16">
-                <Text fontWeight="bold" fontSize="2xl">Designer e Desenvolvedor, especializado em desenvolvimento de aplicativos mobile.</Text>
+                <Text fontWeight="bold" fontSize="2xl">Desenvolvedor Júnior, estudando Reactjs e ReactNative.</Text>
                 <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
                     <Flex rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end">
                         <Icon color="white" p="4" as={DiReact} w="24" h="24" />

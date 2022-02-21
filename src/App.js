@@ -19,9 +19,27 @@ function App() {
           ml="8" size="md" fontWeight='semibold' color="cyan.400">oneDev</Heading>
 
         <Spacer></Spacer>
-        <IconButton icon={<FaLinkedin />} isRound='true'></IconButton>
-        <IconButton ml={2} icon={<FaInstagram />} isRound='true' ></IconButton>
-        <IconButton ml={2} icon={<FaGithub />} isRound='true' ></IconButton>
+        <IconButton 
+        icon={<FaLinkedin />} 
+        cursor='pointer'
+        onClick={()=> window.open('https://www.linkedin.com/in/diefersonsoares/')}
+        isRound='true'>
+
+        </IconButton>
+        <IconButton ml={2} 
+        icon={<FaInstagram />} 
+        cursor='pointer'
+        onClick={() => window.open('https://instagram.com/eudiefersonsoares')}
+        isRound='true' >
+          
+        </IconButton>
+        <IconButton ml={2} 
+        icon={<FaGithub />} 
+        cursor='pointer'
+        onClick={() => window.open('https://github.com/frontendDieferson')}
+        isRound='true' >
+
+        </IconButton>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
       </Flex>
       <Header></Header>
