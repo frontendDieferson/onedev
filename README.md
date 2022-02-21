@@ -4,6 +4,10 @@ This project was bootstrapped with Chakra UI & [Create React App](https://github
 
 ## ScreenShots
 
+![image](https://user-images.githubusercontent.com/62387982/155030927-7bb1f6ad-794d-45a5-8d8d-c334a0b17f4c.png)
+![image](https://user-images.githubusercontent.com/62387982/155030960-3468ccad-0130-4f5c-abd9-f75f4f367e39.png)
+![image](https://user-images.githubusercontent.com/62387982/155031029-d032ecc2-c614-4797-afe5-501dd9c4a7a9.png)
+
 
 
 ## Available Scripts
