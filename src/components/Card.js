@@ -1,6 +1,5 @@
-import { Button } from '@chakra-ui/button'
-import {  Box, Text, Badge, Flex } from '@chakra-ui/layout'
-import { Image, Container } from "@chakra-ui/react"
+import {  Box, Flex } from '@chakra-ui/layout'
+import { Container } from "@chakra-ui/react"
 import { useMediaQuery } from '@chakra-ui/media-query'
 
 
