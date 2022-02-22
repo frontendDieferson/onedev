@@ -42,7 +42,7 @@ import {
             }}
           />
           <Heading fontSize={'2xl'} fontFamily={'body'}>
-            Calculadora de Gorjetas
+            BitcoinApp
           </Heading>
           
           <Text
