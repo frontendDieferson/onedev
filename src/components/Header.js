@@ -6,6 +6,7 @@ import { Image } from '@chakra-ui/image';
 import { Stack, Circle, Flex, Box, Text } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import React from 'react'
+import perfil from '../assets/perfil.jpg'
 
 function Header() {
 
@@ -34,7 +35,7 @@ function Header() {
                 <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
                     mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full'
                     backgroundColor="transparent" boxShadow="lg"
-                    boxSize="300px" src='https://avatars.githubusercontent.com/u/62387982?v=4' />
+                    boxSize="290px" src={perfil} />
             </Flex>
 
         </Stack>

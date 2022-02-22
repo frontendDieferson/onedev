@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import Profile from "./components/Profile";
 import Social from "./components/Social";
+import Footer from './components/Footer';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
       <Social></Social>
       <Profile></Profile>
       <Portfolio></Portfolio>
+      <Footer></Footer>
     </VStack>
   );
 }

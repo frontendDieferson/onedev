@@ -91,6 +91,7 @@ import {
               flex={1}
               fontSize={'sm'}
               rounded={'full'}
+              onClick={() => window.open('https://tipcalculator-ten.vercel.app/')}
               bg={'blue.400'}
               color={'white'}
               boxShadow={

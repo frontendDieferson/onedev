@@ -39,7 +39,7 @@ function Profile() {
                         bg="gray.100" h="30vh" w="30vh" justify="flex-end" _hover={{ bg: "orange.400", }}>
                         <Icon color="black" p="4" as={DiPython} w="24" h="24" />
                         <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-                            Conhecimento em Python
+                            Aplicações em Python e Flask
                         </Text>
                     </Flex>
                     <Flex rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0}
